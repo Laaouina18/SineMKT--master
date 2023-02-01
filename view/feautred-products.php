@@ -27,9 +27,9 @@ include_once("../controller/productController.php")?>
 							<h5><?= $produit["prix"] ?>$</h5>
 							
 					
-									<a href="/new?a=supprimer&id=<?php echo $produit["id"] ?>"><button name="supprimer"class="subscribe" style="margin-bottom:2px;color:red;background-color:white;" >Supprimer
+									<a href="/new?a=supprimer&id=<?php echo $produit["id"] ?>"><button name="supprimer"class="btn btn-danger"  >Supprimer
 									  </button></a>
-									   <a href="/update?b=modifier&id=<?php echo $produit["id"] ?>"><button name="modifier" class="subscribe" style="margin:2px;color:#e99c2e;background-color:white;">Modifier  </button></a>
+									   <a href="/update?b=modifier&id=<?php echo $produit["id"] ?>"><button name="modifier" class="btn btn-info">Modifier  </button></a>
 	
 						</div>
 					

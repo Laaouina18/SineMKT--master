@@ -171,7 +171,7 @@
                                 data-target="#navbar-menu">
                                 <i class="fa fa-bars"></i>
                             </button>
-                            <a href="home.html">
+                            <a href="home.php" style="margin-right:22rem">
                                 <div class="logo">
                                     <img class="image-logo" src="../assets/logo/logo.png" alt="logo" style="margin-right:13rem;">
 
